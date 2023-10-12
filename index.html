@@ -2,10 +2,25 @@
 <html>
   <head>
     <title>Checkerboard</title>
-    <style href="styles.css"></style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Thiem's Pixel Art Maker</h1>
+    
+    <div class="colorPickerContainer">
+        <h1>Thiem's Pixel Art Maker</h1>
+        
+
+        <div class="pixelColorBox"></div>
+        
+        <div class="inputContainer">
+            <label for="RGBColors"></label>
+            <span>Red</span><input type="number" placeholder="0-255" id="Rcolor" />
+            <span>Green</span><input type="number" placeholder="0-255" id="Gcolor" />
+            <span>Blue</span><input type="number" placeholder="0-255" id="Bcolor" />
+        </div>
+        
+        
+    </div>
   </body>
   <script defer src="script.js"></script>
 </html>
