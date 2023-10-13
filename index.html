@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Checkerboard</title>
+    <title>Thiem's Person Pixel Art Maker</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -9,14 +9,17 @@
     <div class="colorPickerContainer">
         <h1>Thiem's Pixel Art Maker</h1>
         
-
-        <div class="pixelColorBox"></div>
+        <div class="container">
+          <label for="RGBColors" >Your current color: &nbsp;</label>
+          <div class="pixelColorBox"></div>
+        </div>
         
-        <div class="inputContainer">
-            <label for="RGBColors"></label>
-            <span>Red</span><input type="number" placeholder="0-255" id="Rcolor" />
-            <span>Green</span><input type="number" placeholder="0-255" id="Gcolor" />
-            <span>Blue</span><input type="number" placeholder="0-255" id="Bcolor" />
+
+        
+        <div class="inputContainer" id="RGBColors">
+            <span>Red</span><input type="number" placeholder="0-255" id="Rcolor" value="250" />
+            <span>Green</span><input type="number" placeholder="0-255" id="Gcolor" value="100" />
+            <span>Blue</span><input type="number" placeholder="0-255" id="Bcolor" value="7" />
         </div>
         
         
